@@ -35,7 +35,6 @@ color: "#c9c9c1"
 <div class="case-gallery">
   <figure><img src="/images/cases/xian-mixc/article-city.png" alt="西安万象城城市文化主题公众号内容长图" loading="lazy" /><figcaption>城市文化主题内容</figcaption></figure>
   <figure><img src="/images/cases/xian-mixc/article-lifestyle.png" alt="西安万象城生活方式主题公众号内容长图" loading="lazy" /><figcaption>生活方式主题内容</figcaption></figure>
-  <figure class="case-gallery-wide"><img src="/images/cases/xian-mixc/article-campaign.png" alt="西安万象城活动主题公众号内容长图" loading="lazy" /><figcaption>活动传播主题内容</figcaption></figure>
 </div>
 
 ### 部分已发布内容
