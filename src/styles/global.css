@@ -130,6 +130,20 @@ nav a:hover, nav a.active { color: var(--blue); border-color: var(--blue); }
 .case-links { margin: 0 0 28px; border-top: 1px solid #aaa9a3; }
 .case-links a { display: flex; justify-content: space-between; padding: 16px 0; border-bottom: 1px solid #d0cfc9; color: var(--ink); font-size: 14px; text-decoration: none; }
 .case-links a:hover { color: var(--blue); }
+.brand-story-excerpts { margin: 26px 0 68px; border-top: 1px solid var(--ink); }
+.brand-story-excerpts blockquote { margin: 0; padding: 28px 0; border-bottom: 1px solid #c9c8c2; color: var(--ink); font-size: clamp(20px, 2.6vw, 31px); line-height: 1.65; letter-spacing: -.02em; }
+.strategy-grid { display: grid; grid-template-columns: 1fr 1fr; margin: 32px 0 72px; border-top: 1px solid var(--ink); }
+.strategy-grid div { min-height: 230px; padding: 22px 20px 28px 0; border-bottom: 1px solid #c9c8c2; }
+.strategy-grid div:nth-child(odd) { border-right: 1px solid #c9c8c2; }
+.strategy-grid div:nth-child(even) { padding-left: 20px; }
+.strategy-grid span { color: var(--blue); font-size: 10px; }
+.strategy-grid strong { display: block; margin: 50px 0 12px; font-size: 21px; font-weight: 500; }
+.strategy-grid p { margin: 0; font-size: 14px; line-height: 1.8; }
+.editorial-cover-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 0 0 64px; }
+.editorial-cover-grid figure { margin: 0; background: #111; }
+.editorial-cover-grid img { display: block; width: 100%; height: auto; }
+.editorial-cover-grid figcaption { padding: 12px 14px 15px; color: #b9b9b4; font-size: 11px; }
+.editorial-cover-wide { grid-column: 1 / -1; }
 
 .contact-list { margin: 0 0 12vh 25%; }
 .contact-item { display: grid; grid-template-columns: 1fr 2fr; align-items: baseline; padding: 30px 0; border-top: 1px solid var(--rule); }
@@ -172,6 +186,10 @@ nav a:hover, nav a.active { color: var(--blue); border-color: var(--blue); }
   .case-stats div:last-child { border-bottom: 0; }
   .case-gallery { grid-template-columns: 1fr; }
   .case-gallery-wide { grid-column: auto; }
+  .strategy-grid, .editorial-cover-grid { grid-template-columns: 1fr; }
+  .strategy-grid div:nth-child(odd) { border-right: 0; }
+  .strategy-grid div:nth-child(even) { padding-left: 0; }
+  .editorial-cover-wide { grid-column: auto; }
   .contact-list { margin-left: 0; }
   .contact-item { grid-template-columns: 90px 1fr; }
 }
