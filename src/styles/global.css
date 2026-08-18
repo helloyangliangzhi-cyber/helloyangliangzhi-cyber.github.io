@@ -60,7 +60,7 @@ nav a:hover, nav a.active { color: var(--blue); border-color: var(--blue); }
 .hero-bottom > p { max-width: 420px; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.7; }
 .hero-bottom .button-row { justify-self: end; }
 
-.service-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); }
+.service-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--rule); }
 .service-card { min-height: 310px; padding: 25px 28px 24px 0; border-right: 1px solid var(--rule); }
 .service-card + .service-card { padding-left: 28px; }
 .service-card:last-child { border-right: 0; }

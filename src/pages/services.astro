@@ -4,9 +4,10 @@ const services: Array<[string, string, string[]]> = [
   ["01", "品牌策略与故事", ["品牌故事", "品牌价值梳理", "品牌手册"]],
   ["02", "品牌内容建设", ["社媒内容策略", "内容栏目规划", "长期内容顾问"]],
   ["03", "产品叙事", ["产品故事", "产品详情页", "视频脚本"]],
+  ["04", "建筑与空间叙事", ["设计理念梳理", "建筑与空间项目文案", "媒体发布内容"]],
 ];
 ---
-<BaseLayout title="Services｜杨两只" description="品牌策略与故事、品牌内容建设及产品叙事服务。">
+<BaseLayout title="Services｜杨两只" description="品牌策略与故事、品牌内容建设、产品叙事及建筑与空间叙事服务。">
   <div class="page-shell">
     <section class="page-intro"><p class="eyebrow">Services</p><div><h1 class="display">帮助品牌，<br />表达得更清楚。</h1><p class="intro-copy">以独立顾问的方式参与品牌项目：从理解、提炼到表达，提供可持续的内容方向，而不只是一次性的文案。</p></div></section>
     <section class="section">{services.map(([num, title, items]) => <article class="service-detail"><span class="num">{num}</span><h2>{title}</h2><ul>{items.map((item) => <li>{item}</li>)}</ul></article>)}</section>
