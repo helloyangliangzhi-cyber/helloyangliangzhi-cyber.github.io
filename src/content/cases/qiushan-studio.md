@@ -6,7 +6,7 @@ year: "2022"
 role: 创始人访谈、价值梳理与品牌故事撰写
 industry: 陶艺与生活器物
 featured: true
-order: 5
+order: 6
 color: "#d7c8b6"
 ---
 
