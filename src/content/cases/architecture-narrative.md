@@ -59,7 +59,6 @@ color: "#c8cbc5"
   <figure><img src="/images/cases/architecture/print/kinfolk-cover.webp" alt="KINFOLK 2020春季刊改变特辑封面" loading="lazy"><figcaption>KINFOLK 2020 春季刊｜「改变特辑」</figcaption></figure>
   <figure><img src="/images/cases/architecture/print/kinfolk-shuangta-title.webp" alt="KINFOLK苏州双塔市集文章一个有烟火气的地方标题页" loading="lazy"><figcaption>双塔市集｜《一个有烟火气的地方》</figcaption></figure>
   <figure><img src="/images/cases/architecture/print/kinfolk-shuangta-spread.webp" alt="KINFOLK苏州双塔市集文章内页" loading="lazy"><figcaption>双塔市集改造｜文章内页</figcaption></figure>
-  <figure><img src="/images/cases/architecture/print/kinfolk-shen-interview.webp" alt="采访设计师沈雷现场" loading="lazy"><figcaption>设计师沈雷｜采访现场</figcaption></figure>
 </div>
 
 ### NYLON《尼龙》｜裴浩正
