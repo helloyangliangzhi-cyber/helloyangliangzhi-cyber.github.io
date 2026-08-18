@@ -23,9 +23,11 @@ color: "#c8cbc5"
   <div><span>02 / COMMISSION</span><strong>事务所项目文案</strong><p>直接服务建筑师与设计团队，从专业资料中提炼设计理念，形成完整、统一且便于传播的项目叙事。</p></div>
 </div>
 
-## 03 重点项目：玉川酒庄
+## 03 纸刊撰稿
 
-### 《让生活交换的地方》
+长期为设计、建筑与生活方式纸刊进行人物采访、项目报道与专题写作。以下以杂志实拍呈现部分发表记录，既保留具体文章，也通过封面与内页呈现持续的纸刊合作经验。
+
+### 玉川酒庄｜《让生活交换的地方》
 
 采访建筑师马清运与马伯骞父子，围绕马清运设计的玉川酒庄及家族在此生活的故事展开写作。文章不只介绍建筑形态，也从父子关系、家庭记忆与日常使用进入空间，讨论建筑如何成为人与生活、当地与外部世界之间的“交换器”。
 
@@ -34,6 +36,49 @@ color: "#c8cbc5"
 <div class="manual-gallery">
   <figure><img src="/images/cases/architecture/yuchuan-spread-01.webp" alt="Wallpaper卷宗玉川酒庄文章让生活交换的地方纸刊内页" loading="lazy"><figcaption>Wallpaper*《卷宗》｜《让生活交换的地方》标题页与马清运、马伯骞父子</figcaption></figure>
   <figure><img src="/images/cases/architecture/yuchuan-spread-02.webp" alt="Wallpaper卷宗玉川酒庄建筑文章纸刊内页" loading="lazy"><figcaption>玉川酒庄及建筑项目纸刊内页</figcaption></figure>
+</div>
+
+### Wallpaper*《卷宗》
+
+参与 2020 年 11&12 月合刊等纸刊内容，以撰稿人身份完成设计师、创作者与空间相关的采访和写作。杂志采用镭射反光封面；以下包括两篇文章内页与同期纸刊记录。
+
+<div class="print-archive">
+  <figure><img src="/images/cases/architecture/print/wallpaper-cover.webp" alt="卷宗Wallpaper 2020年11与12月合刊镭射封面" loading="lazy"><figcaption>2020 年 11&12 月合刊｜镭射封面</figcaption></figure>
+  <figure><img src="/images/cases/architecture/print/wallpaper-cough-01.webp" alt="卷宗Wallpaper Cough In Vain工作室文章标题页" loading="lazy"><figcaption>Cough In Vain 工作室｜《归至无限平静》</figcaption></figure>
+  <figure><img src="/images/cases/architecture/print/wallpaper-cough-02.webp" alt="卷宗Wallpaper Cough In Vain工作室文章内页" loading="lazy"><figcaption>Cough In Vain 工作室｜文章内页</figcaption></figure>
+  <figure><img src="/images/cases/architecture/print/wallpaper-space-01.webp" alt="卷宗Wallpaper艺术空间文章标题页" loading="lazy"><figcaption>空间与创作者专题｜纸刊内页</figcaption></figure>
+  <figure><img src="/images/cases/architecture/print/wallpaper-space-02.webp" alt="卷宗Wallpaper艺术空间文章内页" loading="lazy"><figcaption>空间与创作者专题｜纸刊内页</figcaption></figure>
+  <figure><img src="/images/cases/architecture/print/wallpaper-home.webp" alt="卷宗Wallpaper住宅与生活方式文章内页" loading="lazy"><figcaption>住宅与生活方式内容｜纸刊内页</figcaption></figure>
+</div>
+
+### KINFOLK｜苏州双塔市集
+
+采访设计师沈雷，记录苏州双塔市集改造背后的城市更新与日常生活。文章发表于 KINFOLK 2020 春季刊「改变特辑」：建筑可以阅读，街区适合漫步，人群流淌温度；当下的面貌，也在岁月里有了光泽。
+
+<div class="print-archive">
+  <figure><img src="/images/cases/architecture/print/kinfolk-cover.webp" alt="KINFOLK 2020春季刊改变特辑封面" loading="lazy"><figcaption>KINFOLK 2020 春季刊｜「改变特辑」</figcaption></figure>
+  <figure><img src="/images/cases/architecture/print/kinfolk-shuangta-title.webp" alt="KINFOLK苏州双塔市集文章一个有烟火气的地方标题页" loading="lazy"><figcaption>双塔市集｜《一个有烟火气的地方》</figcaption></figure>
+  <figure><img src="/images/cases/architecture/print/kinfolk-shuangta-spread.webp" alt="KINFOLK苏州双塔市集文章内页" loading="lazy"><figcaption>双塔市集改造｜文章内页</figcaption></figure>
+  <figure><img src="/images/cases/architecture/print/kinfolk-shen-interview.webp" alt="采访设计师沈雷现场" loading="lazy"><figcaption>设计师沈雷｜采访现场</figcaption></figure>
+</div>
+
+### NYLON《尼龙》｜裴浩正
+
+通过邮件采访折纸艺术家、国际奥林匹克世界冠军裴浩正，从训练、创作与职业路径出发，了解折纸作为一种职业的可能性。文章发表于 NYLON《尼龙》十一月刊。
+
+<div class="print-archive">
+  <figure><img src="/images/cases/architecture/print/nylon-cover.webp" alt="NYLON尼龙十一月刊封面" loading="lazy"><figcaption>NYLON《尼龙》十一月刊｜杂志封面</figcaption></figure>
+  <figure><img src="/images/cases/architecture/print/nylon-pei-title.webp" alt="裴浩正下一次折纸永远更有挑战性文章标题页" loading="lazy"><figcaption>裴浩正｜《下一次折纸，永远更有挑战性》</figcaption></figure>
+  <figure><img src="/images/cases/architecture/print/nylon-pei-spread.webp" alt="NYLON尼龙裴浩正折纸艺术采访内页" loading="lazy"><figcaption>折纸艺术与职业路径｜采访内页</figcaption></figure>
+</div>
+
+### 《Madame Figaro 世界》
+
+为《Madame Figaro 世界》撰写人物与生活方式内容。以下为 4—6 月间发表的部分纸刊封面及采访内页。
+
+<div class="print-archive">
+  <figure><img src="/images/cases/architecture/print/figaro-covers.webp" alt="Madame Figaro世界杂志封面合集" loading="lazy"><figcaption>《Madame Figaro 世界》｜部分发表期刊</figcaption></figure>
+  <figure><img src="/images/cases/architecture/print/figaro-interview.webp" alt="Madame Figaro世界人物采访文章内页" loading="lazy"><figcaption>人物与生活方式内容｜采访内页</figcaption></figure>
 </div>
 
 ## 04 媒体建筑报道

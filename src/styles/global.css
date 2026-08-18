@@ -160,6 +160,10 @@ nav a:hover, nav a.active { color: var(--blue); border-color: var(--blue); }
 .manual-gallery figure { margin: 0; padding: 16px; background: #efeee9; }
 .manual-gallery img { display: block; width: 100%; height: auto; }
 .manual-gallery figcaption { margin-top: 12px; color: #686864; font-size: 11px; }
+.print-archive { columns: 2; column-gap: 18px; margin: 32px 0 80px; }
+.print-archive figure { break-inside: avoid; margin: 0 0 18px; padding: 14px; background: #efeee9; }
+.print-archive img { display: block; width: 100%; height: auto; }
+.print-archive figcaption { margin-top: 12px; color: #686864; font-size: 11px; line-height: 1.6; }
 
 .contact-list { margin: 0 0 12vh 25%; }
 .contact-item { display: grid; grid-template-columns: 1fr 2fr; align-items: baseline; padding: 30px 0; border-top: 1px solid var(--rule); }
@@ -212,6 +216,7 @@ nav a:hover, nav a.active { color: var(--blue); border-color: var(--blue); }
   .editorial-cover-wide { grid-column: auto; }
   .narrative-steps div { grid-template-columns: 38px 1fr; gap: 12px; }
   .narrative-steps p { grid-column: 2; }
+  .print-archive { columns: 1; }
   .contact-list { margin-left: 0; }
   .contact-item { grid-template-columns: 90px 1fr; }
 }
