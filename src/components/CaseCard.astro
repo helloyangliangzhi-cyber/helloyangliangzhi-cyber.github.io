@@ -1,0 +1,18 @@
+---
+const { entry, index = 0 } = Astro.props;
+---
+
+<article class="case-card">
+  <a class="case-visual" href={`/cases/${entry.id}/`} style={`--case-color:${entry.data.color}`} aria-label={`查看案例：${entry.data.title}`}>
+    <span>{String(index + 1).padStart(2, "0")}</span>
+    <strong>{entry.data.title}</strong>
+  </a>
+  <div class="case-info">
+    <div>
+      <p class="meta">{entry.data.service}</p>
+      <h3><a href={`/cases/${entry.id}/`}>{entry.data.title}</a></h3>
+      <p>{entry.data.summary}</p>
+    </div>
+    <a class="arrow-link" href={`/cases/${entry.id}/`}>View Case <span>↗</span></a>
+  </div>
+</article>
