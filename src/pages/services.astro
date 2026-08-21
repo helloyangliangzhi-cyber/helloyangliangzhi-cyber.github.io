@@ -11,6 +11,41 @@ const services: Array<[string, string, string[]]> = [
   <div class="page-shell">
     <section class="page-intro"><p class="eyebrow">Services</p><div><h1 class="display">帮助品牌，<br />表达得更清楚。</h1><p class="intro-copy">以独立顾问的方式参与品牌项目：从理解、提炼到表达，提供可持续的内容方向，而不只是一次性的文案。</p></div></section>
     <section class="section">{services.map(([num, title, items]) => <article class="service-detail"><span class="num">{num}</span><h2>{title}</h2><ul>{items.map((item) => <li>{item}</li>)}</ul></article>)}</section>
+    <section class="section checkup-section" id="brand-checkup">
+      <div class="checkup-intro">
+        <p class="eyebrow">Brand Expression Check-up</p>
+        <div>
+          <h2>45 分钟<br />品牌表达体检</h2>
+          <p>如果你已经意识到品牌的表达有些问题，却暂时说不清问题在哪里，我们可以先从一次聚焦的对话开始。</p>
+        </div>
+      </div>
+      <div class="checkup-detail">
+        <p class="checkup-lead">围绕一个当下最需要解决的品牌语言问题，判断表达中的卡点、梳理优先级，并给出下一步可以行动的方向。</p>
+        <div class="checkup-points">
+          <div><span>01</span><p>适合品牌主理人、内容负责人，以及正在重新梳理品牌表达的团队。</p></div>
+          <div><span>02</span><p>可以讨论品牌介绍、品牌故事、产品表达或社媒内容方向中的具体问题。</p></div>
+          <div><span>03</span><p>这是一次微型诊断，适合先确认问题；如需完整策略与文案，可再进入项目合作。</p></div>
+        </div>
+        <a class="button" href="https://xhslink.com/m/3gzbUEHAzhs" target="_blank" rel="noreferrer">在小红书查看并预约 ↗</a>
+      </div>
+    </section>
     <section class="section"><div class="section-head"><p class="eyebrow">How We Work</p><h2>清晰、具体、<br />保持对话。</h2></div><div class="method-grid"><article class="method-item"><span>01</span><h3>理解问题</h3><p>从项目背景、目标与现有内容出发，明确品牌真正需要解决的问题。</p></article><article class="method-item"><span>02</span><h3>共同建立方向</h3><p>通过研究与讨论确定内容框架，在关键节点与你保持同步。</p></article><article class="method-item"><span>03</span><h3>形成可用表达</h3><p>交付清晰、可落地的文字与内容，并为长期使用预留延展空间。</p></article></div></section>
+    <section class="section faq-section">
+      <div class="section-head"><p class="eyebrow">FAQ</p><h2>合作常见问题</h2></div>
+      <div class="faq-list">
+        <details open>
+          <summary><span>01</span><h3>如何开始合作？</h3></summary>
+          <p>你可以通过邮件、微信或小红书，简单说明品牌或项目背景、目前希望解决的问题，以及大致时间安排。我会先了解需求，再与你确认合作范围、交付内容与项目节奏。</p>
+        </details>
+        <details>
+          <summary><span>02</span><h3>项目如何收费？</h3></summary>
+          <p>费用会根据项目目标、工作范围、交付内容与合作周期综合评估。完整项目会在沟通需求后提供具体报价，并在开始前确认交付范围、时间节点与修改方式。如果暂时不确定是否需要完整项目，也可以先从 45 分钟的品牌表达体检开始。</p>
+        </details>
+        <details>
+          <summary><span>03</span><h3>如何签约与沟通？</h3></summary>
+          <p>支持全国及海外线上沟通，并可通过电子合同完成签约。我常驻上海，如项目需要，也可以根据双方时间安排当面沟通。合作过程会在关键节点同步方向与反馈。</p>
+        </details>
+      </div>
+    </section>
   </div>
 </BaseLayout>
