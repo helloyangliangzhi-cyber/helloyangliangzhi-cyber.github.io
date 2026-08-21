@@ -1,12 +1,59 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import CaseCard from "../../components/CaseCard.astro";
-const cases = (await getCollection("cases")).sort((a, b) => a.data.order - b.data.order);
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CaseCard from "../components/CaseCard.astro";
+
+const featured = (await getCollection("cases"))
+  .filter((item) => item.data.featured)
+  .sort((a, b) => a.data.order - b.data.order);
 ---
-<BaseLayout title="Case Studies｜杨两只" description="品牌故事、内容策略与产品叙事案例。">
+
+<BaseLayout>
+  <section class="hero">
+    <div class="hero-id">
+      <div><p class="hero-name">杨两只</p><p class="hero-role">Brand Content Consultant</p></div>
+      <p class="eyebrow">Shanghai · Independent Practice</p>
+    </div>
+    <h1>通过文字与内容，<br />帮助品牌建立<span>更清晰的表达。</span></h1>
+    <div class="hero-bottom">
+      <p>专注品牌故事、内容策划与产品叙事，让品牌的价值被理解、被感受，也被长久记住。</p>
+      <div class="button-row"><a class="button" href="/cases/">View Cases</a><a class="button secondary" href="/contact/">Contact</a></div>
+    </div>
+  </section>
+
   <div class="page-shell">
-    <section class="page-intro"><p class="eyebrow">Portfolio · 2023—Now</p><div><h1 class="display">Case Studies</h1><p class="intro-copy">品牌故事、内容策略与产品叙事案例。每一个项目，都从理解品牌真正想说什么开始。</p></div></section>
-    <section class="section"><div class="case-grid">{cases.map((entry, index) => <CaseCard entry={entry} index={index} />)}</div></section>
+    <section class="section">
+      <div class="section-head"><p class="eyebrow">Services</p><h2>让品牌表达，<br />从清晰开始。</h2></div>
+      <div class="service-grid">
+        <article class="service-card"><span class="num">01</span><h3>品牌故事</h3><p>帮助品牌梳理创立背景、价值理念与文化表达，找到值得被讲述的核心。</p></article>
+        <article class="service-card"><span class="num">02</span><h3>内容策划</h3><p>建立长期内容方向，包括公众号、小红书及社交媒体的栏目与表达体系。</p></article>
+        <article class="service-card"><span class="num">03</span><h3>产品叙事</h3><p>让产品从功能介绍走向价值表达，把特征翻译成消费者真正关心的意义。</p></article>
+        <article class="service-card"><span class="num">04</span><h3>空间叙事</h3><p>为建筑师与设计团队梳理设计理念，将专业语言转化为清晰、可感知的项目故事。</p></article>
+      </div>
+      <div class="service-entry"><p>暂时说不清品牌表达的问题在哪里？</p><a class="arrow-link" href="/services/#brand-checkup">了解 45 分钟品牌表达体检 <span>↗</span></a></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><p class="eyebrow">Featured Cases</p><h2>Selected Work</h2></div>
+      <div class="case-grid">{featured.map((entry, index) => <CaseCard entry={entry} index={index} />)}</div>
+    </section>
+
+    <section class="section">
+      <div class="about-preview">
+        <h2>我是一名品牌内容创作者。</h2>
+        <div>
+          <p>过去几年，我持续研究品牌如何通过文字、故事与内容，建立人与品牌之间的连接。</p>
+          <p>从艺术设计、媒体编辑到品牌内容工作，我习惯先理解一个品牌，再为它寻找准确而有生命力的表达。</p>
+          <a class="arrow-link" href="/about/">More About Me <span>↗</span></a>
+        </div>
+      </div>
+      <div class="credential-row"><p>艺术设计背景</p><p>媒体撰稿经历</p><p>品牌咨询经验</p></div>
+    </section>
   </div>
+
+  <section class="contact-band">
+    <p class="eyebrow">Contact</p>
+    <h2>如果你的品牌正在寻找<br />新的表达方式，欢迎交流。</h2>
+    <div class="button-row"><a class="button" href="/contact/">开始交流</a><a class="button secondary" href="weixin://dl/chat?yoko858yoko">微信 yoko858yoko</a></div>
+  </section>
 </BaseLayout>
