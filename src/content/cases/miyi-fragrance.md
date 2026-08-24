@@ -6,7 +6,7 @@ year: "2020—2022"
 role: 社媒策略、栏目策划、文案与发布管理
 industry: 生活方式香氛
 featured: true
-order: 2
+order: 3
 color: "#d8d2ca"
 ---
 

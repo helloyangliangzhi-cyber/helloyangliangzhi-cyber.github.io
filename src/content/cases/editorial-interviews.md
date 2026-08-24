@@ -6,7 +6,7 @@ year: "2017—2022"
 role: 撰稿人、记者与编辑
 industry: 媒体 / 设计 / 生活方式
 featured: false
-order: 9
+order: 10
 color: "#c4c7ce"
 ---
 

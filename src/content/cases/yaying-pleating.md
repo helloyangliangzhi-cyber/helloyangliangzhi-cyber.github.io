@@ -6,7 +6,7 @@ year: "2024"
 role: 内容结构、展览前言、四个单元文案与展品说明
 industry: 时装 / 品牌展览 / 传统工艺
 featured: true
-order: 4
+order: 5
 color: "#e3dfd6"
 ---
 

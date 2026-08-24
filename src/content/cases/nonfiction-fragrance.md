@@ -6,7 +6,7 @@ year: "2023"
 role: 中文命名提案、品牌介绍与香调文案撰写
 industry: 香氛 / 生活方式
 featured: true
-order: 3
+order: 4
 color: "#d7d6d1"
 ---
 

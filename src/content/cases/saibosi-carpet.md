@@ -6,7 +6,7 @@ year: "2022"
 role: 产品研究、卖点提炼、详情页结构与文案撰写
 industry: 家居 / 地毯
 featured: true
-order: 7
+order: 8
 color: "#d8d0c4"
 ---
 

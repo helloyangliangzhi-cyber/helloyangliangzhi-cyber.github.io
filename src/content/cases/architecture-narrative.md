@@ -6,7 +6,7 @@ year: "2020—2025"
 role: 设计师采访、理念梳理、项目文案与媒体撰稿
 industry: 建筑 / 室内设计 / 生活方式
 featured: true
-order: 5
+order: 6
 color: "#c8cbc5"
 ---
 
