@@ -4,9 +4,30 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import CaseCard from "../../components/CaseCard.astro";
 const cases = (await getCollection("cases")).sort((a, b) => a.data.order - b.data.order);
 ---
-<BaseLayout title="Case Studies｜杨两只" description="品牌故事、内容策略与产品叙事案例。">
+<BaseLayout title="Case Studies｜杨两只｜无限袤 MAU Studio" description="品牌策略、内容建设、创意概念、产品包装、展览与空间项目案例。">
   <div class="page-shell">
-    <section class="page-intro"><p class="eyebrow">Portfolio · 2023—Now</p><div><h1 class="display">Case Studies</h1><p class="intro-copy">品牌故事、内容策略与产品叙事案例。每一个项目，都从理解品牌真正想说什么开始。</p></div></section>
-    <section class="section"><div class="case-grid">{cases.map((entry, index) => <CaseCard entry={entry} index={index} />)}</div></section>
+    <section class="page-intro"><p class="eyebrow">Selected Work</p><div><h1 class="display">Case Studies</h1><p class="intro-copy">从品牌策略、长期内容到包装、展览与空间项目。每一个合作，都从理解问题与找到核心想法开始。</p></div></section>
+    <section class="case-filter" aria-label="案例分类">
+      <button type="button" class="active" data-filter="all">All</button>
+      <button type="button" data-filter="brand-strategy">Brand &amp; Strategy</button>
+      <button type="button" data-filter="content-editorial">Content &amp; Editorial</button>
+      <button type="button" data-filter="creative-experience">Creative &amp; Experience</button>
+    </section>
+    <section class="section case-list-section"><div class="case-grid">{cases.map((entry, index) => <CaseCard entry={entry} index={index} />)}</div></section>
   </div>
 </BaseLayout>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>("[data-filter]");
+  const cards = document.querySelectorAll<HTMLElement>("[data-case-category]");
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const filter = button.dataset.filter;
+      buttons.forEach((item) => item.classList.toggle("active", item === button));
+      cards.forEach((card) => {
+        card.hidden = filter !== "all" && card.dataset.caseCategory !== filter;
+      });
+    });
+  });
+</script>

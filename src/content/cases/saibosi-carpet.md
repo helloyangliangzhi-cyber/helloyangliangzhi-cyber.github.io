@@ -8,6 +8,8 @@ industry: 家居 / 地毯
 featured: true
 order: 8
 color: "#d8d0c4"
+category: creative-experience
+tags: [产品叙事, 详情页]
 ---
 
 ## 01 项目背景

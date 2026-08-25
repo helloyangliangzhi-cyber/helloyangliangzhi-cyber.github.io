@@ -8,6 +8,8 @@ industry: 香氛 / 生活方式
 featured: true
 order: 4
 color: "#d7d6d1"
+category: brand-strategy
+tags: [产品叙事, 中文本地化]
 ---
 
 ## 01 项目背景

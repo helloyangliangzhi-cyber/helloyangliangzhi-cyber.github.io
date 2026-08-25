@@ -8,6 +8,8 @@ industry: 人文地产
 featured: true
 order: 1
 color: "#c9c9c1"
+category: content-editorial
+tags: [内容策略, 社交媒体]
 ---
 
 ## 01 项目背景

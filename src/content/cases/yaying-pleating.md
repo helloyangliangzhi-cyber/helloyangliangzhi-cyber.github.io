@@ -8,6 +8,8 @@ industry: 时装 / 品牌展览 / 传统工艺
 featured: true
 order: 5
 color: "#e3dfd6"
+category: creative-experience
+tags: [展览叙事, 线下体验]
 ---
 
 ## 01 项目背景

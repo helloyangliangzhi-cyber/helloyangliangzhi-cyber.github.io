@@ -8,6 +8,8 @@ industry: 健康饮食 / 谷物饮品
 featured: true
 order: 2
 color: "#d8d2b9"
+category: brand-strategy
+tags: [品牌策略, 包装创意]
 ---
 
 ## 01 项目背景

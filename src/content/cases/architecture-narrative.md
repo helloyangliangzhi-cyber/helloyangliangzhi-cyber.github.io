@@ -8,6 +8,8 @@ industry: 建筑 / 室内设计 / 生活方式
 featured: true
 order: 6
 color: "#c8cbc5"
+category: creative-experience
+tags: [空间叙事, 设计内容]
 ---
 
 ## 01 项目背景

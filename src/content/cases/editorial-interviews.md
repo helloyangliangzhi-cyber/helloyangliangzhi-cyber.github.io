@@ -8,6 +8,8 @@ industry: 媒体 / 设计 / 生活方式
 featured: false
 order: 10
 color: "#c4c7ce"
+category: content-editorial
+tags: [媒体撰稿, 人物采访]
 ---
 
 ## 01 项目背景

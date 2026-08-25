@@ -8,6 +8,8 @@ industry: 陶艺与生活器物
 featured: true
 order: 9
 color: "#d7c8b6"
+category: brand-strategy
+tags: [品牌故事, 价值梳理]
 ---
 
 ## 01 项目背景

@@ -8,6 +8,8 @@ industry: 生活方式香氛
 featured: true
 order: 3
 color: "#d8d2ca"
+category: content-editorial
+tags: [内容策略, 社媒建设]
 ---
 
 ## 01 项目背景

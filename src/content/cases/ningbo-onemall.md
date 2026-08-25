@@ -8,6 +8,8 @@ industry: 商业地产
 featured: true
 order: 7
 color: "#b8e9bd"
+category: creative-experience
+tags: [商业叙事, 品牌手册]
 ---
 
 ## 01 项目背景
