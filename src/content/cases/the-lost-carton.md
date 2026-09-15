@@ -82,7 +82,7 @@ tags: [展览策划, 空间体验]
 <div class="credit-list">
   <p><strong>策展</strong><span>杨两只</span></p>
   <p><strong>海报设计</strong><span>于惠洋</span></p>
-  <p><strong>参展摄影师</strong><span>Cookie、刘博江、郭梁威、王伟政、邢鑫、于惠洋</span></p>
+  <p><strong>参展摄影师</strong><span>Cookie、刘博江、邬烈威、王伟权、邢磊、于惠洋</span></p>
   <p><strong>展期</strong><span>2016 年 3 月 27 日—4 月 24 日</span></p>
   <p><strong>地点</strong><span>大连·回声图书馆</span></p>
 </div>
