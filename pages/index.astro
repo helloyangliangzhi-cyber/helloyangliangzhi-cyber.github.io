@@ -1,0 +1,65 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CaseCard from "../components/CaseCard.astro";
+
+const featured = (await getCollection("cases"))
+  .filter((item) => item.data.featured)
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="hero-id">
+      <div><p class="hero-name">无限袤｜Mau Studio</p><p class="hero-role">Brand &amp; Creative Studio<br />品牌、编辑、文化与体验策划</p></div>
+      <p class="eyebrow">Shanghai · Brand &amp; Creative Studio</p>
+    </div>
+    <h1>让想象，<br />在现实<span>生根。</span></h1>
+    <div class="hero-bottom">
+      <p>无限袤是一家连接品牌、设计、文化与当代生活的创意工作室。我们从真实业务、项目与研究中发现值得被认识的价值，并通过内容、空间与体验，让它被理解、被感受，也在现实中生长。</p>
+      <div class="button-row"><a class="button" href="/cases/">View Cases</a><a class="button secondary" href="/contact/">Contact</a></div>
+    </div>
+  </section>
+
+  <div class="page-shell">
+    <section class="section">
+      <div class="section-head"><p class="eyebrow">What We Do</p><h2>两种路径，<br />让价值发生连接。</h2></div>
+      <div class="service-grid service-grid-two">
+        <article class="service-card"><span class="num">01 · Brand &amp; Editorial Strategy</span><h3>品牌与编辑策划</h3><p>品牌核心体系、品牌与项目叙事、专题研究与编辑策划、长期内容顾问。</p><strong>让价值被理解。</strong></article>
+        <article class="service-card"><span class="num">02 · Culture &amp; Experience Programming</span><h3>文化与体验策划</h3><p>品牌文化展览、文化体验工作坊、文化活动与主题对谈、空间叙事与长期文化内容共建。</p><strong>让价值被体验。</strong></article>
+      </div>
+      <div class="service-entry"><p>暂时说不清品牌表达的问题在哪里？</p><a class="arrow-link" href="/services/#brand-checkup">了解 45 分钟品牌表达体检 <span>↗</span></a></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><p class="eyebrow">Featured Cases</p><h2>Selected Work</h2></div>
+      <div class="case-grid">{featured.map((entry, index) => <CaseCard entry={entry} index={index} />)}</div>
+    </section>
+
+    <section class="section">
+      <div class="about-preview">
+        <h2>我是杨两只，也是无限袤 Mau Studio 的创始人及编辑策划。</h2>
+        <div>
+          <p>我的工作建立在编辑、采访与品牌内容经验之上，从资料、访谈和真实项目中识别值得被看见的价值。</p>
+          <p>我会根据官网、业务介绍、项目发布或持续沟通的需要，组织内容结构与表达尺度，让专业能力更容易被理解。</p>
+          <a class="arrow-link" href="/about/">More About Me <span>↗</span></a>
+        </div>
+      </div>
+      <div class="credential-row"><p>品牌与编辑策划</p><p>文化与体验策划</p><p>研究、提炼与表达</p></div>
+    </section>
+
+    <section class="section studio-notes">
+      <div class="section-head"><p class="eyebrow">Studio Notes</p><h2>创意如何从一个念头，<br />逐渐成为现实。</h2></div>
+      <div class="studio-notes-content">
+        <p>在“无限袤 Mau Studio”的小红书账号，我会分享更多创意项目的落地案例、过程记录，以及仍在生长中的概念与想法。</p>
+        <a class="button" href="https://xhslink.cn/m/1u6DD3sjsmd" target="_blank" rel="noreferrer">前往无限袤 Mau Studio <span>↗</span></a>
+      </div>
+    </section>
+  </div>
+
+  <section class="contact-band">
+    <p class="eyebrow">Contact</p>
+    <h2>如果有一件事<br />始终说不清楚。</h2>
+    <div class="button-row"><a class="button" href="/contact/">开始交流</a><a class="button secondary" href="weixin://dl/chat?yoko858yoko">微信 yoko858yoko</a></div>
+  </section>
+</BaseLayout>
