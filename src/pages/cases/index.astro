@@ -4,9 +4,9 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import CaseCard from "../../components/CaseCard.astro";
 const cases = (await getCollection("cases")).sort((a, b) => a.data.order - b.data.order);
 ---
-<BaseLayout title="Case Studies｜杨两只｜无限袤 MAU Studio" description="品牌策略、内容建设、创意概念、产品包装、展览与空间项目案例。">
+<BaseLayout title="Case Studies｜无限袤 Mau Studio" description="品牌与编辑策划、文化与体验策划、产品包装、展览与空间项目案例。">
   <div class="page-shell">
-    <section class="page-intro"><p class="eyebrow">Selected Work</p><div><h1 class="display">Case Studies</h1><p class="intro-copy">从品牌策略、长期内容到包装、展览与空间项目。每一个合作，都从理解问题与找到核心想法开始。</p></div></section>
+    <section class="page-intro"><p class="eyebrow">Selected Work</p><div><h1 class="display">Case Studies</h1><p class="intro-copy">从品牌与编辑策划，到展览、包装与空间叙事。每一个合作，都从真实问题与关键判断开始，并让价值成为可以被理解或体验的现实。</p></div></section>
     <section class="case-filter" aria-label="案例分类">
       <button type="button" class="active" data-filter="all">All</button>
       <button type="button" data-filter="brand-strategy">Brand &amp; Strategy</button>
